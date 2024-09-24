@@ -1,74 +1,35 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Parallax Scrolling Website | Vanilla Javascript</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <header>
-        <a href="#" class="logo">Logo</a>
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </header>
-    <section>
-        <img src="stars.png" id="stars">
-        <img src="moon.png" id="moon">
-        <img src="mountains_behind.png" id="mountains_behind">
-        <h2 id="text">Moon Light</h2>
-        <a href="#sec" id="btn">Explore</a>
-        <img src="mountains_front.png" id="mountains_front">
-    </section>
-    <div class="sec" id="sec">
-        <h2>Lua</h2>
-        <p>A Lua é um corpo celeste localizado no Sistema Solar, mais precisamente nas proximidades da Terra, sendo o único satélite natural desse planeta. Há diversas teorias que explicam a formação lunar, no geral, derivadas de outros processos que geraram os demais corpos celestes, inclusive a próprio planeta Terra..<br></br>A Lua possui algumas características semelhantes às da Terra, como a sua composição em três grandes camadas. Uma outra característica da Lua é a sua superfície formada por crateras constituídas pela queda de corpos celestes diversos. Ela possui quatro fases e é objeto de estudos científicos diversos, tendo também uma relação muita próxima com a Terra, influenciando a esfera terrestre por meio do seu campo gravitacional.<br></br></p>
-    </div>
-
-    <script>
-        let stars = document.getElementById('stars');
-        let moon = document.getElementById('moon');
-        let mountains_behind = document.getElementById('mountains_behind');
-        let text = document.getElementById('text');
-        let btn = document.getElementById('btn');
-        let mountains_front = document.getElementById('mountains_front');
-        let header = document.querySelector('header');
-
-        window.addEventListener('scroll',function(){
-            let value = window.scrollY;
-            stars.style.left = value * 0.25 + 'px';
-            moon.style.top = value * 1.05 + 'px';
-            mountains_behind.style.top = value * 0.5 + 'px';
-            mountains_front.style.top = value * 0.25 + 'px';
-            text.style.marginRight = value * 4 + 'px';
-            text.style.marginTop = value * 1.5 + 'px';
-            btn.style.marginTop = value * 1.5 + 'px';
-            header.style.top = value * 0.5 + 'px';
-        })
-    </script>
-</body>
-</html> -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Pedido de Namoro</title>
 </head>
+
 <body>
-  <div class="container">
-    <h1>Você aceita namorar comigo?</h1>
+  <!-- <div class="container">
+    <h1>Você aceita namorar comigo</h1>
     <button id="sim" onclick="resposta(true)">Sim</button>
     <button id="nao" onclick="naoClicavel()">Não</button>
   </div>
 
   <div id="resposta" class="hidden">
     <p id="mensagem"></p>
-  </div>
+  </div> -->
+
+  <h1>
+    Karine Leal
+  </h1>
+
+  <p>Quem é ela?</p>
+  <p>A garota mais incrivel que eu conheço</p>
+
+  <img src="https://i.ytimg.com/vi/SzKjj92vSqk/mqdefault.jpg" alt="">
+  <img src="https://i.ytimg.com/vi/TV-hQuJ8sKw/maxresdefault.jpg" alt="" style="max-width: 320px;">
 
   <script src="script.js"></script>
 </body>
+
 </html>
