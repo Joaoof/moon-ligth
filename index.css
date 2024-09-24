@@ -1,0 +1,89 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar .container-fluid .navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(71, 84, 199) !important;
+    /* Forçando o estilo com !important */
+}
+
+#navbarSupportedContent {
+    font-family: 'Poppins', sans-serif;
+}
+
+body>h1 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(71, 84, 199) !important;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+body>header>p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+body>div>div:nth-child(1)>img {
+    max-width: 300px;
+}
+
+body>div>div:nth-child(1)>div .card-body {
+    padding: 10px;
+}
+
+body>div>div:nth-child(1)>div {
+    /* Reduz o espaçamento interno */
+
+    /* Altura será ajustada de acordo com o conteúdo */
+}
+
+.card-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    /* Espaçamento entre os cards */
+    flex-wrap: wrap;
+    /* Permite que os cards se ajustem em diferentes linhas em telas menores */
+}
+
+.card {
+    max-width: 200px;
+    /* Define a largura máxima dos cards */
+    margin: 40px;
+    /* Adiciona um espaçamento ao redor dos cards */
+    height: auto;
+    /* Ajusta a altura conforme o conteúdo */
+}
+
+.card-body {
+    padding: 105px;
+    /* Reduz o espaçamento interno */
+}
+
+/* body>div>div:nth-child(2)>img {
+    height: 300.25px;
+} */
+
+body>div>div:nth-child(2)>div {
+    border-left: 1px #4c4f474f solid;
+}
