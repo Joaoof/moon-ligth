@@ -8,6 +8,7 @@
     background: linear-gradient(135deg, #E3F2FD, #D1C4E9);
     /* Azul claro para lavanda suave */
     color: #333333;
+    font-family: 'Poppins', sans-serif;
     /* Um cinza escuro para contraste */
 }
 
@@ -79,11 +80,21 @@ body>div>div:nth-child(1)>div {
 
 .card {
     max-width: 200px;
+    transition: transform 0.4s ease-in, box-shadow 0.4s ease;
     /* Define a largura máxima dos cards */
     margin: 40px;
     /* Adiciona um espaçamento ao redor dos cards */
     height: auto;
     /* Ajusta a altura conforme o conteúdo */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    /* Aumenta o card um pouco */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    /* Aumenta a sombra de forma sutil */
+
+    /* Sombra mais pronunciada */
 }
 
 .card-body {
