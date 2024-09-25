@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.body-main {
+    background: linear-gradient(135deg, #E3F2FD, #D1C4E9);
+    /* Azul claro para lavanda suave */
+    color: #333333;
+    /* Um cinza escuro para contraste */
+}
+
+body>div>nav {
+    background-color: #ffeae9 !important;
+}
+
 .navbar .container-fluid .navbar-brand {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(71, 84, 199) !important;

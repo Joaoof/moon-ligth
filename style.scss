@@ -60,17 +60,17 @@
         transform-origin: center;
 
         &:nth-child(1) {
-            background: #FDD94F;
+            background: #fff;
             transform: rotateY(0) translateZ(35vw);
         }
 
         &:nth-child(2) {
-            background: #F87949;
+            background: #fff;
             transform: rotateY(120deg) translateZ(35vw);
         }
 
         &:nth-child(3) {
-            background: #FBAB48;
+            background: #fff;
             transform: rotateY(240deg) translateZ(35vw);
         }
     }
